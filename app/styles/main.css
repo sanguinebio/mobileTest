@@ -1,0 +1,429 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
+.text-white {
+  color: #FFF;
+}
+
+.text-grey {
+  color: #595959;
+}
+
+.text-orange {
+  color: #FF7825;
+}
+
+.text-blue {
+  color: #286275;
+}
+
+.all-caps {
+  text-transform: uppercase;
+}
+
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Open Sans Condensed',sans-serif;
+  background-color: #333;
+}
+
+
+#main-container {
+  max-width: 320px;
+  background-image: url(https://d2xrs3qqoda7l2.cloudfront.net/asset/bkg_pattern.png);
+  background-repeat: repeat;
+}
+
+#splash {
+  background: url('/images/la_bkg.jpg');
+  background-position: center center;
+  background-size: cover;
+  padding: 20px 2px 0px 2px;
+}
+
+.logo {
+  padding: 0% 5%;
+  width: 100%;
+}
+
+.video-caption {
+  padding: 5%;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 300;
+  text-shadow: 1px 1px 3px #666666;
+  letter-spacing: 1.4px;
+  word-spacing: 2px;
+  text-align: justify;
+  text-align-last: justify;
+  -moz-text-align-last: justify;
+}
+
+.play-btn {
+  text-align: center;
+}
+
+.play-btn img {
+  max-width: 30%;
+  margin: 15% 15%;
+}
+
+.form-border {
+  height: 20px;
+  width: 320px;
+  margin-left: -15px;
+  background: rgba(232,232,232,1);
+  background: -moz-linear-gradient(top, rgba(232,232,232,1) 0%, rgba(224,224,224,1) 75%, rgba(168,168,168,1) 95%, rgba(168,168,168,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(232,232,232,1)), color-stop(75%, rgba(224,224,224,1)), color-stop(95%, rgba(168,168,168,1)), color-stop(100%, rgba(168,168,168,1)));
+  background: -webkit-linear-gradient(top, rgba(232,232,232,1) 0%, rgba(224,224,224,1) 75%, rgba(168,168,168,1) 95%, rgba(168,168,168,1) 100%);
+  background: -o-linear-gradient(top, rgba(232,232,232,1) 0%, rgba(224,224,224,1) 75%, rgba(168,168,168,1) 95%, rgba(168,168,168,1) 100%);
+  background: -ms-linear-gradient(top, rgba(232,232,232,1) 0%, rgba(224,224,224,1) 75%, rgba(168,168,168,1) 95%, rgba(168,168,168,1) 100%);
+  background: linear-gradient(to bottom, rgba(232,232,232,1) 0%, rgba(224,224,224,1) 75%, rgba(168,168,168,1) 95%, rgba(168,168,168,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#a8a8a8', GradientType=0 );
+}
+
+#form {
+  background-color: #BFBFBF;
+}
+
+#form form {
+  background-color: #EBEBEB;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-header, .or-elem, .facebook-btn {
+  background-color: #2A6174;
+  color: #FFF;
+}
+
+.signup-btn, .input-group-addon{
+  background-color: #FF7825;
+  color: #FFF;
+}
+
+.input-group-addon {
+  padding: 0px 6px;
+  min-width: 69px;
+  letter-spacing: 1.1px;
+  text-align: left;
+  border: none;
+  border-radius: none;
+}
+
+#form .form-group {
+  border: 1px solid #FF7825;
+  border-radius: 9px; 
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+#form .form-control {
+  height: 22px;
+}
+
+#form .btn[disabled] {
+opacity: 1;
+}
+
+.form-header {
+  border-radius: 9px;
+  width: 100%;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-buttons {
+  margin-top: 30px;
+}
+
+.signup-btn {
+  border-radius: 9px;
+  width: 100%;
+  font-size: 22px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.signup-col {
+  padding-right: 0px;
+}
+
+.facebook-btn {
+  height: 33px;
+  border-radius: 9px;
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-image: url('https://d2xrs3qqoda7l2.cloudfront.net/asset/facebook_btn.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.facebook-col {
+  padding-left: 0px;
+}
+
+.or-elem {
+  border-radius: 50px;
+  font-size: 10px;
+  padding: 4px 7px;
+  margin: 5px auto 0px auto;
+
+}
+
+.or-col {
+  padding: 0px;
+  text-align: center;
+}
+
+.header {
+  font-weight: 600;
+  font-size: 23px; 
+  margin: 5px 0px 0px 0px;
+  line-height: 28px;
+}
+
+#question .divider {
+  height: 1px;
+  border-top: 2px solid #FF7825;
+  margin: 20px auto 15px auto;
+  width: 60%;
+}
+
+#question .header {
+  padding-right: 0px;
+}
+
+#question .subheader{
+  margin-left: -10px;
+}
+
+#question .header p {
+  text-align: right;
+}
+
+#question .subheader p {
+  font-size: 13px;
+  margin: 16px 0px 13px 0px;
+  padding-right: 10%;
+  line-height: 14px;
+  word-spacing: 1.5px;
+}
+
+.question-item{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 5%;
+  z-index: 1001;
+}
+
+.question-item img {
+  max-width: 150%;
+  margin-left: -25%;
+}
+
+.question-item h3 {
+  font-weight: 300;
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+
+.question-item p {
+  font-weight: 300;
+  font-size: 15px;
+  padding: 0px 10px;
+  word-spacing: 1.4px;
+}
+
+.question-item:nth-of-type(odd) {
+  margin-left: -7px;
+}
+
+.question-item:nth-of-type(9) {
+  margin-top: -12px;
+  cursor: pointer;
+  margin-bottom: 100px;
+}
+
+.modal-dialog {
+  max-width: 300px;
+  margin: auto;
+}
+
+.modal-header {
+  margin: 0px;
+  text-align: center;
+}
+
+.modal-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.modal-header .btn {
+  background: none;
+  border: none;
+  color: #FF7825;
+  font-weight: 600;
+}
+
+.study-image img {
+  max-width: 100%;
+}
+
+.study-image {
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+
+.study-text {
+  font-size: 16px;
+}
+
+.circle-divider {
+  position: relative;
+  width: 100%;
+  margin: 0px;
+  z-index: 1000;
+}
+
+.circle-divider img {
+  position: absolute;
+  width: 30%;
+  bottom: -40px;
+  right: 110px;
+}
+
+.divider-bar-left, .divider-bar-right {
+  position: absolute;
+  width: 30%;
+  height: 2px;
+  background-color: #FF7825;
+  bottom: 0px;
+}
+
+.divider-bar-left {
+  left: 0px;
+}
+
+.divider-bar-right {
+  right: 0px;
+}
+
+#process {
+  background-image: url('/images/how_bkg.png');
+  background-repeat: repeat-x;
+  height: 566px;
+}
+
+#process .header {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.slides {
+  position: relative;
+}
+
+.step-btn {
+  position: absolute;
+  cursor: pointer;
+  width: 30px;
+}
+
+.step-left {
+  top: 101px;
+  left: 30px;
+}
+
+.step-right {
+  top: 101px;
+  right: 30px;
+}
+
+.step-btn img {
+  max-width: 100%;
+}
+
+.step-title {
+  text-align: center;
+  font-size: 23px;
+  letter-spacing: 1.3px;
+  word-spacing: 1.5px;
+  margin-top: 5px;
+  margin-bottom: none;
+}
+
+.step-img {
+  padding: 0px;
+}
+
+.step-img img {
+  max-width: 100%;
+}
+
+.step-desc {
+  padding: 5px 30px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+  font-size: 16px;
+  text-align: justify;
+  text-align-last: justify;
+  -moz-text-align-last: justify;
+}
+
+#connect {
+  background-image: url('https://d2xrs3qqoda7l2.cloudfront.net/asset/sanguine_connectwithus_bkg.png');
+  background-repeat: repeat-x;
+  padding: 25px 0px;
+  height: 267px;
+}
+
+#connect h3 {
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 3px;
+  word-spacing: 1.2px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.connect-item img{
+  max-width: 100%;
+}
+
+.connect-item:nth-last-of-type(2) {
+  margin-left: 17%;
+}
+
+#footer {
+  text-align: center;
+  margin: 10px 0px 10px -5px;
+}
+
+#footer a {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 16px;
+}
+
+#footer span {
+  border-right: 2px solid #286275;
+  padding: 0px 6px 0px 8px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#footer span:nth-last-of-type(-n+1) {
+  border: none;
+}
