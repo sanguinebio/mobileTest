@@ -1,0 +1,26 @@
+<div ng-controller="questionControl">
+  <div class="divider"></div>
+  <div class="col-xs-6 header">
+    <p class="text-orange all-caps">When you donate blood</p>
+  </div>
+  <div class="col-xs-6 subheader">
+    <p class="text-grey">We give $50 for you and $25 for your charity of choice.</p>
+  </div>
+
+  <div class="col-xs-6 question-item" ng-repeat="item in questionContent">
+    <img ng-click="open()" ng-src="{{item.imgSrc}}">
+    <h3 class="all-caps text-grey">{{item.title}}</h3>
+    <div>
+      <p class="text-grey">{{item.desc}}</p>
+    </div>
+  </div>
+
+  <div class="circle-divider row">
+    <div class="divider-bar-left"></div>
+
+    <img ng-src="https://d2xrs3qqoda7l2.cloudfront.net/asset/blood_circle.png">
+
+    <div class="divider-bar-right"></div>
+  </div>
+
+</div>

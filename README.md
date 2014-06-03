@@ -14,3 +14,23 @@ section 5: link all buttons (use current donate.sanguinebio.com site for links)
 Use donate.sanguinebio.com for copy and reference.
 
 let me know if you have any questions feel free to email or call keaton@sangiunebio.com, mmarple@sanguinebio.com.
+
+
+
+
+
+*************************************
+=====================================
+*************************************
+
+
+Teja Rudraraju - NOTES:
+
+  To start app from Terminal:
+
+     1) "npm install"
+     2) "bower install"
+
+     3) "grunt serve:dist"
+
+  PORT: 9000

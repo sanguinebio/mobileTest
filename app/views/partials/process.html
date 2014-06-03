@@ -1,0 +1,23 @@
+<div ng-controller='processControl'>
+
+  <h3 class="all-caps text-orange header">How it works</h3>
+
+  <p class="step-title text-grey">{{currentSlide.title}}</p>
+  
+  <div class="row slides">
+    <div class="step-btn step-left pull-left" ng-click="prevStep()">
+      <img ng-src='https://d2xrs3qqoda7l2.cloudfront.net/asset/how_arrow_left.png'/>
+    </div>
+
+    <div class="col-xs-8 col-xs-offset-2 step-img">
+      <img ng-src="{{currentSlide.imgSrc}}" />
+    </div>
+
+    <div class="step-btn step-right pull-right" ng-click="nextStep()">
+      <img ng-src='https://d2xrs3qqoda7l2.cloudfront.net/asset/how_arrow_right.png'/>
+    </div>
+  </div>
+
+  <p class="step-desc text-grey">{{currentSlide.desc}}</p>
+
+</div>

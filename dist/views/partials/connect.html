@@ -1,0 +1,11 @@
+<div ng-controller="connectControl">
+
+  <h3 class="text-white">Connect with us</h3>
+
+  <div class="connect-item col-xs-4" ng-repeat="item in connectItems">
+    <a href="{{item.src}}">
+      <img ng-src="{{item.imgSrc}}">
+    </a>
+  </div>
+
+</div>
