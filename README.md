@@ -31,6 +31,6 @@ Teja Rudraraju - NOTES:
      1) "npm install"
      2) "bower install"
 
-     3) "grunt serve"
+     3) "grunt serve:dist"
 
   PORT: 9000
