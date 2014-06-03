@@ -1,0 +1,30 @@
+"tree back"   = https://d2xrs3qqoda7l2.cloudfront.net/asset/la_bkg.jpg
+"back pattern"= https://d2xrs3qqoda7l2.cloudfront.net/asset/bkg_pattern.png
+
+"18+"         = https://d2xrs3qqoda7l2.cloudfront.net/asset/18.png
+"test tubes"  = https://d2xrs3qqoda7l2.cloudfront.net/asset/tubes.png
+"calendar"    = https://d2xrs3qqoda7l2.cloudfront.net/asset/calendar.png
+"where"       = https://d2xrs3qqoda7l2.cloudfront.net/asset/house.png
+"steth scope" = https://d2xrs3qqoda7l2.cloudfront.net/asset/steth.png
+"require"     = https://d2xrs3qqoda7l2.cloudfront.net/asset/study.png
+
+
+"blood circle"= https://d2xrs3qqoda7l2.cloudfront.net/asset/blood_circle.png
+
+
+"left-arrow"   = https://d2xrs3qqoda7l2.cloudfront.net/asset/how_arrow_left.png
+"right-arrow" = https://d2xrs3qqoda7l2.cloudfront.net/asset/how_arrow_right.png
+
+
+"linkedin"    = https://d2xrs3qqoda7l2.cloudfront.net/asset/linkedin_connectw.png
+"blog"        = https://d2xrs3qqoda7l2.cloudfront.net/asset/blogspot_connectw.png
+"facebook"    = https://d2xrs3qqoda7l2.cloudfront.net/asset/fb_connectw.png
+"vimeo"       = https://d2xrs3qqoda7l2.cloudfront.net/asset/vimeo_connectw.png
+"twitter"     = https://d2xrs3qqoda7l2.cloudfront.net/asset/twitter_connectw.png
+
+
+"linkedin"    = https://www.linkedin.com/company/1004902
+"blog"        = http://blog.sanguinebio.com/
+"facebook"    = https://www.facebook.com/PatientsLeadingResearch
+"vimeo"       = https://vimeo.com/sanguinebio
+"twitter"     = https://twitter.com/sanguinebio
